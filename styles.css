@@ -1,0 +1,80 @@
+body, h3, p {
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero {
+    background-image: url("./Assests/Images/Background_web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero h1 {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140px;
+}
+
+.hero h3 {
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.nav-bar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+#modes {
+    background-color: #155E95;
+    color: white;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    color: white;
+    margin-top: 50px;
+}
+
+.animated-section {
+    opacity: 0;  /* Initially hidden */
+    transform: translateX(-100%);  /* Start from the left */
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.animated-section.show {
+    opacity: 1;
+    transform: translateX(0);  /* Move into view */
+}
+
+.rounded-lg-3 {
+    border-radius: .3rem;
+}
